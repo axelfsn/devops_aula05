@@ -1,0 +1,12 @@
+name: Construindo e testanto
+
+on: 
+  push:
+       branches:
+           -main
+jobs: build and test:
+          runs-on: ubuntu-latest
+      steps:
+      -name: primeiros passos
+      run: echo "Oi mundo Devops!"
+      
